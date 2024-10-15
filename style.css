@@ -2,3 +2,48 @@
     padding: 0px;
     margin: 0px;
 }
+
+
+nav{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 80px;
+    justify-content: right;
+    background-color: antiquewhite;
+}
+
+nav li{
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+nav a{
+    flex:unset;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+section{
+    height: calc(100vh - 75px);
+    overflow: scroll;
+}
+
+footer{
+    text-align: center;
+    background-color: burlywood;
+    padding: 12px;
+}
+
+footer p{
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+/* Animations */
+/* This to hide the scroll bar of any division which allows scroll overflow */
+section::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari, and Opera */
+}
