@@ -17,10 +17,33 @@
     </nav>
     <section>
         <div class="home" id="home">
+            <div class="content">
+                <h1 id="greeting">hi there...</h1>
+                <h1 id="name">I am Paul Kiran Peteti</h1>
+                <p id="dynamic-paragraph">I am a <span class="auto"></span></p>
+                <p>Pursuing My B.Tech Degree At KL University</p>
+                <p>Summer Intern At <a href="https://www.linkedin.com/company/paypal/" target="_blank">@PayPal</a>, Bangalore (2024)</p>
+            </div>
+            <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+            <script>
+                let typed = new Typed(".auto", {
+                        strings: ["Full Stack Developer", "Tech Entusiast", "programmer", "CS Graduate","Fast Learner"],
+                        typeSpeed: 50,
+                        backSpeed: 50,
+                        backDelay: 500,
+                        startDelay: 500,
+                        smartBackspace: true,
+                        loop: true,
+                        showCursor: false
+                    });
 
+            </script>
+            <div class="picture">
+                <img src="./Images/Profile_Picture.jpg" alt="Images">
+            </div>
         </div>
         <div class="about" id="about">
-
+    
         </div>
     </section>
     <footer>

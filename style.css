@@ -30,10 +30,77 @@ section{
     overflow: scroll;
 }
 
+section .home{
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding:20px 20px 0px 20px;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section .home .content {
+    min-width: 40%;
+    min-height: 35%;
+    padding: 10px;
+    background-color: burlywood;
+    padding: 25px;
+}
+
+section .home .picture{
+    max-width: 25%;
+    max-height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: burlywood;
+}
+.home .content p a{
+    text-decoration: none;
+    color: Black;
+    font-weight: bold;
+}
+
+#greeting{
+    font-size: 33.88px;
+    text-transform: capitalize;
+    padding: 8px 0px;
+}
+
+
+#name{
+    padding: 20px 0px;
+    font-size: 45.88px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+#name span{
+    text-transform: uppercase;
+}
+
+.home .content p{
+    padding: 8px 0px;
+    font-size: 18.56px;
+    font-family: sans-serif;
+}
+
+.home .content #dynamic-paragraph{
+    font-size: 24.56px;
+    padding: 10px 0px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+.picture img{
+    height: 100%;
+    width: 100%;
+}
 footer{
     text-align: center;
     background-color: burlywood;
-    padding: 12px;
+    padding: 12px 0px;
 }
 
 footer p{
