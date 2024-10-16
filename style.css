@@ -46,6 +46,8 @@ section .home .content {
     padding: 10px;
     background-color: burlywood;
     padding: 25px;
+    border-radius: 3%;
+    box-shadow: 6px 6px 8px grey;
 }
 
 section .home .picture{
